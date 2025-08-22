@@ -28,11 +28,11 @@ import { Package } from './package/package.entity';
         if (type === 'mysql') {
           return {
             type: 'mysql',
-            // host: process.env.DB_HOST,
-            // port: Number(process.env.DB_PORT || 3306),
-            // username: process.env.DB_USER,
-            // password: process.env.DB_PASS,
-            // database: process.env.DB_NAME,
+            host: process.env.DB_HOST,
+            port: Number(process.env.DB_PORT || 3306),
+            username: process.env.DB_USER,
+            password: process.env.DB_PASS,
+            database: process.env.DB_NAME,
             url: process.env.DATABASE_URL,
             entities: [User, Teacher, Booking, Package],
             autoLoadEntities: true,
@@ -57,3 +57,4 @@ import { Package } from './package/package.entity';
   ],
 })
 export class AppModule { }
+
