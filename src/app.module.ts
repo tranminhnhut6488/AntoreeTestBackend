@@ -41,8 +41,8 @@ import { Package } from './package/package.entity';
         }
         return {
           type: 'sqlite',
-          database: process.env.DB_PATH || 'english_dev.sqlite',
-          entities: [User, Teacher, Booking],
+          database: process.env.DB_PATH || 'antoree',
+          entities: [User, Teacher, Booking, Package],
           synchronize: true,
         } as any;
       },
