@@ -34,7 +34,7 @@ Tạo File .env:
  - DB_PASS=
  - DB_NAME=antoree
  - BASE_URL=http://localhost:3001/uploads/
- - DATABASE_URL=mysql://root:@db-railway.up.railway.app:3306/antoree
+ - DATABASE_URL=mysql://root:arHSUBwmXPWuPGViQBneLixGygrqWYVt@shinkansen.proxy.rlwy.net:44210/railway
  - DB_SSL=true
 
 
@@ -109,6 +109,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
 
 
 
