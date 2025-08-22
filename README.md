@@ -24,7 +24,7 @@
 
 ## Description
 Tạo File .env:
-  -PORT=3001
+  - PORT=3001
  - JWT_SECRET=sidjfugkh
  - DB_PATH=
  - DB_TYPE=mysql
@@ -109,6 +109,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
 
 
 
