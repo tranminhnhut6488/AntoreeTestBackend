@@ -26,18 +26,18 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 Tạo File .env:
-  PORT=3001
-  JWT_SECRET=sidjfugkh
-  DB_PATH=
-  DB_TYPE=mysql
-  DB_HOST=localhost
-  DB_PORT=3306
-  DB_USER=root
-  DB_PASS=
-  DB_NAME=antoree
-  BASE_URL=http://localhost:3001/uploads/
-  DATABASE_URL=mysql://root:@db-railway.up.railway.app:3306/antoree
-  DB_SSL=true
+  -PORT=3001
+ - JWT_SECRET=sidjfugkh
+ - DB_PATH=
+ - DB_TYPE=mysql
+ - DB_HOST=localhost
+ - DB_PORT=3306
+ - DB_USER=root
+ - DB_PASS=
+ - DB_NAME=antoree
+ - BASE_URL=http://localhost:3001/uploads/
+ - DATABASE_URL=mysql://root:@db-railway.up.railway.app:3306/antoree
+ - DB_SSL=true
 
 
 ## Project setup
@@ -111,6 +111,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
 
 
 
